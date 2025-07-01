@@ -1,0 +1,32 @@
+{
+  "name": "e-shop",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ecommerce Rest Api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "AsimIqbal",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "braintree": "^3.31.0",
+    "colors": "^1.4.0",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.9",
+    "slugify": "^1.6.6",
+    "web-vitals": "^4.2.4"
+  }
+}
